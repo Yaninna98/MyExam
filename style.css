@@ -114,6 +114,8 @@
     }
 
 
+
+
     .chapter2 {
         display: flex;
         flex-direction: column;
@@ -164,6 +166,81 @@
         box-shadow: none;
     }
 
+
+    .chapter3 {
+        margin-bottom: 70px !important;
+    }
+
+
+    .hedd {
+        text-align: center;
+        font-size: 27px;
+        font-family: 'EB Garamond', serif;
+        margin-bottom: 18px !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .images img {
+        height: 33.5vh;
+        margin: 0px -2px !important;
+    }
+
+
+
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row11, .row22 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .row11 {
+        border-bottom: 1.5px solid rgb(190, 189, 189);
+    }
+
+    .borr {
+        border-right: 1.5px solid rgb(190, 189, 189);
+    }
+
+    .box {
+        width: 33vw !important;
+        height: 45vh !important;
+        padding: 0px 25px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box img {
+        width: 6vh;
+        margin-bottom: 20px !important;
+    }
+
+    .number {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: 'EB Garamond', serif;
+        margin-bottom: 22px !important;
+    }
+
+    .boxopis {
+        text-align: center;
+        font-size: 13px;
+        font-family: 'EB Garamond', serif;
+    }
+
+    /* .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } */
 
 }
 
