@@ -188,6 +188,9 @@
 
 
 
+    .chapter4 {
+        margin-bottom: 50px !important;
+    }
 
     .boxes {
         display: flex;
@@ -236,11 +239,187 @@
         font-family: 'EB Garamond', serif;
     }
 
-    /* .box {
+
+
+    .chapter5 {
+        border-bottom: 1px solid rgb(190, 189, 189);
+    }
+
+    .nep {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 3vh !important;
+    }
+
+    .formname, .formemail, .formaphone {
         display: flex;
         flex-direction: column;
+    }
+
+    .formname, .formemail {
+        margin-right: 1.5vw !important;
+    }
+
+    .formname label, .formemail label, .formaphone label {
+        color: black;
+        font-family: 'EB Garamond', serif;
+        font-size: 13px;
+        margin-bottom: 5px !important;
+    }
+
+    .formname input, .formemail input, .formaphone input {
+        border-radius: 2px !important;
+        width: 20vw !important;
+        height: 6vh !important;
+        border: 1px solid rgb(190, 189, 189) !important;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        margin-left: 17.5vw !important;
+    }
+
+    .radios {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cont {
+        color: black;
+        font-family: 'EB Garamond', serif;
+        font-size: 13px;
+        margin-right: 2vw !important;
+    }
+
+    .topic {
+        margin-left: 17.5vw !important;
+        margin-bottom: 3vh !important;
+        margin-top: 2vh !important;
+    }
+
+    .topic label {
+        color: black;
+        font-family: 'EB Garamond', serif;
+        font-size: 13px;
+    }
+
+    .topic select {
+        margin-top: 5px !important;
+        border: 1px solid rgb(190, 189, 189);
+        font-family: 'EB Garamond', serif !important;
+        font-size: 13px !important;
+        padding-left: 7px !important;
+        width: 63.7vw !important;
+        height: 6vh;
+    }
+
+    .messages {
+        margin-left: 17.5vw !important;
+        margin-bottom: 2vh !important;
+    }
+
+    .formessage {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formessage label {
+        color: black !important;
+        font-family: 'EB Garamond', serif;
+        font-size: 13px;
+        margin-bottom: 5px !important;
+    }
+
+    textarea {
+        border: 1px solid rgb(190, 189, 189);
+        border-radius: 2px !important;
+        width: 63.7vw !important;
+        height: 20vh;
+    }
+
+    .iam {
+        margin-left: 17.5vw !important;
+        display: flex;
+        flex-direction: row;
+        align-items: center !important;
+        justify-content: space-between;
+        margin-bottom: 8vh !important;
+    }
+
+    .martop {
+        margin-top: 1vh !important;
+    }
+
+    .foriin {
+        font-size: 10% !important;
+        border: 1px solid rgb(190, 189, 189) !important;
+    }
+
+    .foriam {
+        color: black !important;
+        font-family: 'EB Garamond', serif;
+        font-size: 13px;
+    }
+
+    .btnsend {
+        background-color: white;
+        color: rgb(105, 104, 104);
+        border: 1px solid rgb(190, 189, 189);
+        box-shadow: none;
+        padding: 0px 17px !important;
+        font-size: 10px;
+        line-height: 25px;
+        height: 25px !important;
+        margin-right: 17.5vw !important;
+    }
+
+    .btnsend:hover {
+        background-color: white !important;
+        box-shadow: none;
+    }
+
+
+
+    .chapter6 {
+        margin-top: 7vh !important;
+        margin-bottom: 7vh !important;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row !important;
         justify-content: center;
-    } */
+    }
+
+    .icons img {
+        width: 28px;
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 5px !important;
+    }
+    
+    .icons a {
+        margin: 0px !important;
+    }
+
+    .icons li {
+        width: 35px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .chapter6 p {
+        text-align: center;
+        font-size: 10px;
+        font-family: 'EB Garamond', serif;
+        margin-top: 1vh !important;
+    }
+
+
+
+
 
 }
 
