@@ -8,6 +8,564 @@
     }
 
     header nav {
+        background-color: rgb(218, 151, 151);
+        border-bottom: 1px solid rgb(190, 189, 189);
+        box-shadow: none;
+        height: 50px;
+    }
+
+    nav div {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    
+    .logo {
+        color: black;
+        font-weight: 600;
+        margin-left: 40px !important;
+    }
+
+    li {
+        line-height: 30px;
+    }
+
+    ul li a {
+        color: black;
+        font-size: 13px !important;
+        font-weight: 400;
+        font-family: 'EB Garamond', serif;
+        margin: 0px 14px !important;
+    }
+
+    li a:hover {
+        background-color: white !important;
+    }
+
+    .poz {
+        position: absolute;
+        right: 25px;
+    }
+
+    .poz li a {
+        margin: 0px 10px !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .poz img {
+        width: 12px;
+    }
+
+
+
+
+    .chapter1 .row {
+        border-bottom: 1px solid rgb(190, 189, 189);
+        line-height: 0px;
+    }
+
+    .coll1eft {
+        padding: 30px 55px 0px !important;
+        display: flex;
+        align-items: center;
+        height: 90vh;
+        line-height: 20px;
+    }
+
+    .let {
+        font-size: 40px;
+        font-family: 'EB Garamond', serif;
+        margin-bottom: 25px !important;
+    }
+
+    .lorem1 {
+        font-size: 16px;
+        font-family: 'EB Garamond', serif;
+        margin-bottom: 7px !important;
+    }
+
+    .lorem2 {
+        font-size: 12px;
+        font-family: 'EB Garamond', serif;
+        margin-bottom: 17px !important;
+    }
+
+    .btnstart {
+        background-color: white;
+        color: rgb(190, 189, 189);
+        border: 1px solid rgb(190, 189, 189);
+        box-shadow: none;
+        padding: 0px 17px !important;
+        font-size: 10px;
+        line-height: 25px;
+        height: 25px !important;
+    }
+
+    .btnstart:hover {
+        background-color: white !important;
+        box-shadow: none;
+    }
+
+    .firee img {
+        width: 100%;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+
+
+
+    .chapter2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chapter2 .row {
+        border-bottom: 1px solid rgb(190, 189, 189);
+        line-height: 0px;
+    }
+
+    .fire img {
+        width: 100% !important;
+    }
+
+    .text {
+        padding: 0px 70px !important;
+        display: flex;
+        align-items: center;
+        height: 68.4vh;
+        line-height: 20px;
+    }
+
+    .hed {
+        font-size: 27px;
+        font-family: 'EB Garamond', serif;
+        margin-bottom: 18px !important;
+    }
+
+    .para {
+        font-size: 12px;
+        font-family: 'EB Garamond', serif;
+        margin-bottom: 18px !important;
+    }
+
+    .btnmore {
+        background-color: white;
+        color: rgb(190, 189, 189);
+        border: 1px solid rgb(190, 189, 189);
+        box-shadow: none;
+        padding: 0px 17px !important;
+        font-size: 10px;
+        line-height: 25px;
+        height: 25px !important;
+    }
+
+    .btnmore:hover {
+        background-color: white !important;
+        box-shadow: none;
+    }
+
+
+    .chapter3 {
+        margin-bottom: 70px !important;
+    }
+
+
+    .hedd {
+        text-align: center;
+        font-size: 27px;
+        font-family: 'EB Garamond', serif;
+        margin-bottom: 18px !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .images img {
+        height: 34vh;
+        margin: 0px -2px !important;
+    }
+
+    .images {
+        position: relative;
+    }
+
+    .navigate .one {
+        visibility: hidden;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10px !important;
+        position: relative;
+    }
+
+    .navigate .two {
+        visibility: hidden;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px !important;
+        position: relative;
+    }
+    
+    .one a, .two a {
+        position: absolute;
+        top: -110px;
+    }
+
+    .images:hover .navigate div {
+        visibility: visible !important;
+    }
+
+    .navigate a {
+        color: white;
+    }
+
+    .imag {
+        display: flex;
+    }
+
+    .img1 {
+        position: relative;
+    }
+    
+    .hover1 {
+        position: absolute;
+        top: 0px;
+        left: -2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 24.5vw;
+        height: 34vh;
+        background-color: rgba(0, 0, 0, 0.432);
+        visibility: hidden;
+        padding: 0% 6% !important;
+    }
+
+    .hover2 {
+        position: absolute;
+        top: 0px;
+        left: -2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 28vw;
+        height: 34vh;
+        background-color: rgba(0, 0, 0, 0.432);
+        visibility: hidden;
+        padding: 0% 6% !important;
+    }
+
+    .hover1 input, .hover2 input {
+        color: white;
+        border-radius: 7%;
+        font-size: 60%;
+        padding: 4% 0% !important;
+        margin: 0% 34% !important;
+        background-color: transparent;
+        border: 1.5px solid white;
+    }
+
+    .hover1 input:hover, .hover2 input:hover {
+        cursor: pointer;
+    }
+
+    .img1:hover .hover1, .img1:hover .hover2 {
+        visibility: visible !important;
+        cursor: auto;
+    }
+
+    .title {
+        color: white;
+        font-weight: 600;
+        font-family: 'EB Garamond', serif;
+        font-size: 80%;
+    }
+
+    .title:hover {
+        cursor:context-menu !important;
+    }
+
+    .lorem {
+        color: white;
+        font-family: 'EB Garamond', serif;
+        font-size: 70%;
+        padding: 2% 0% 10% !important;
+    }
+
+    .lorem:hover {
+        cursor:context-menu !important;
+    }
+
+
+    .chapter4 {
+        margin-bottom: 50px !important;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row11, .row22 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .row11 {
+        border-bottom: 1.5px solid rgb(190, 189, 189);
+    }
+
+    .borr {
+        border-right: 1.5px solid rgb(190, 189, 189);
+    }
+
+    .box {
+        width: 33vw !important;
+        height: 45vh !important;
+        padding: 0px 25px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box img {
+        width: 6vh;
+        margin-bottom: 20px !important;
+    }
+
+    .number {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: 'EB Garamond', serif;
+        margin-bottom: 22px !important;
+    }
+
+    .boxopis {
+        text-align: center;
+        font-size: 13px;
+        font-family: 'EB Garamond', serif;
+    }
+
+
+
+    .chapter5 {
+        border-bottom: 1px solid rgb(190, 189, 189);
+    }
+
+    .nep {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 3vh !important;
+    }
+
+    .formname, .formemail, .formaphone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formname, .formemail {
+        margin-right: 1.5vw !important;
+    }
+
+    .formname label, .formemail label, .formaphone label {
+        color: black;
+        font-family: 'EB Garamond', serif;
+        font-size: 13px;
+        margin-bottom: 5px !important;
+    }
+
+    .formname input, .formemail input, .formaphone input {
+        border-radius: 2px !important;
+        width: 20vw !important;
+        height: 6vh !important;
+        border: 1px solid rgb(190, 189, 189) !important;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        margin-left: 17.5vw !important;
+    }
+
+    .radios {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .radios input {
+        border: 1px solid red;
+    }
+
+    .radios div {
+        margin-right: 20px !important;
+    }
+
+    .for {
+        padding-left: 30px !important;
+        font-family: 'EB Garamond', serif;
+        color: black;
+    }
+
+    .cont {
+        color: black;
+        font-family: 'EB Garamond', serif;
+        font-size: 13px;
+        margin-right: 2vw !important;
+    }
+
+    .topic {
+        margin-left: 17.5vw !important;
+        margin-bottom: 3vh !important;
+        margin-top: 2vh !important;
+    }
+
+    .topic label {
+        color: black;
+        font-family: 'EB Garamond', serif;
+        font-size: 13px;
+    }
+
+    .topic select {
+        margin-top: 5px !important;
+        border: 1px solid rgb(190, 189, 189);
+        font-family: 'EB Garamond', serif !important;
+        font-size: 13px !important;
+        padding-left: 7px !important;
+        width: 63.7vw !important;
+        height: 6vh;
+    }
+
+    .messages {
+        margin-left: 17.5vw !important;
+        margin-bottom: 2vh !important;
+    }
+
+    .formessage {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formessage label {
+        color: black !important;
+        font-family: 'EB Garamond', serif;
+        font-size: 13px;
+        margin-bottom: 5px !important;
+    }
+
+    textarea {
+        border: 1px solid rgb(190, 189, 189);
+        border-radius: 2px !important;
+        width: 63.7vw !important;
+        height: 20vh;
+    }
+
+    .iam {
+        margin-left: 17.5vw !important;
+        display: flex;
+        flex-direction: row;
+        align-items: center !important;
+        justify-content: space-between;
+        margin-bottom: 8vh !important;
+    }
+
+    .martop {
+        margin-top: 1vh !important;
+    }
+
+    .foriin {
+        font-size: 10% !important;
+        border: 1px solid rgb(190, 189, 189) !important;
+    }
+
+    .foriam {
+        color: black !important;
+        font-family: 'EB Garamond', serif;
+        font-size: 13px;
+        padding-left: 40px !important;
+    }
+
+    .btnsend {
+        background-color: white;
+        color: rgb(105, 104, 104);
+        border: 1px solid rgb(190, 189, 189);
+        box-shadow: none;
+        padding: 0px 17px !important;
+        font-size: 10px;
+        line-height: 25px;
+        height: 25px !important;
+        margin-right: 17.5vw !important;
+    }
+
+    .btnsend:hover {
+        background-color: white !important;
+        box-shadow: none;
+    }
+
+
+
+    .chapter6 {
+        margin-top: 7vh !important;
+        margin-bottom: 7vh !important;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: center;
+    }
+
+    .icons img {
+        width: 28px;
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 5px !important;
+    }
+    
+    .icons a {
+        margin: 0px !important;
+    }
+
+    .icons li {
+        width: 35px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .chapter6 p {
+        text-align: center;
+        font-size: 10px;
+        font-family: 'EB Garamond', serif;
+        margin-top: 1vh !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 849px) {
+    
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+    * {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    header nav {
         background-color: white;
         border-bottom: 1px solid rgb(190, 189, 189);
         box-shadow: none;
@@ -182,10 +740,121 @@
     }
 
     .images img {
-        height: 33.5vh;
+        height: 34vh;
         margin: 0px -2px !important;
     }
 
+    .images {
+        position: relative;
+    }
+
+    .navigate .one {
+        visibility: hidden;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10px !important;
+        position: relative;
+    }
+
+    .navigate .two {
+        visibility: hidden;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px !important;
+        position: relative;
+    }
+    
+    .one a, .two a {
+        position: absolute;
+        top: -110px;
+    }
+
+    .images:hover .navigate div {
+        visibility: visible !important;
+    }
+
+    .navigate a {
+        color: white;
+    }
+
+    .imag {
+        display: flex;
+    }
+
+    .img1 {
+        position: relative;
+    }
+    
+    .hover1 {
+        position: absolute;
+        top: 0px;
+        left: -2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 24.5vw;
+        height: 34vh;
+        background-color: rgba(0, 0, 0, 0.432);
+        visibility: hidden;
+        padding: 0% 6% !important;
+    }
+
+    .hover2 {
+        position: absolute;
+        top: 0px;
+        left: -2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 28vw;
+        height: 34vh;
+        background-color: rgba(0, 0, 0, 0.432);
+        visibility: hidden;
+        padding: 0% 6% !important;
+    }
+
+    .hover1 input, .hover2 input {
+        color: white;
+        border-radius: 7%;
+        font-size: 60%;
+        padding: 4% 0% !important;
+        margin: 0% 34% !important;
+        background-color: transparent;
+        border: 1.5px solid white;
+    }
+
+    .hover1 input:hover, .hover2 input:hover {
+        cursor: pointer;
+    }
+
+    .img1:hover .hover1, .img1:hover .hover2 {
+        visibility: visible !important;
+        cursor: auto;
+    }
+
+    .title {
+        color: white;
+        font-weight: 600;
+        font-family: 'EB Garamond', serif;
+        font-size: 80%;
+    }
+
+    .title:hover {
+        cursor:context-menu !important;
+    }
+
+    .lorem {
+        color: white;
+        font-family: 'EB Garamond', serif;
+        font-size: 70%;
+        padding: 2% 0% 10% !important;
+    }
+
+    .lorem:hover {
+        cursor:context-menu !important;
+    }
 
 
     .chapter4 {
@@ -286,6 +955,20 @@
         flex-direction: row;
     }
 
+    .radios input {
+        border: 1px solid red;
+    }
+
+    .radios div {
+        margin-right: 20px !important;
+    }
+
+    .for {
+        padding-left: 30px !important;
+        font-family: 'EB Garamond', serif;
+        color: black;
+    }
+
     .cont {
         color: black;
         font-family: 'EB Garamond', serif;
@@ -361,6 +1044,7 @@
         color: black !important;
         font-family: 'EB Garamond', serif;
         font-size: 13px;
+        padding-left: 40px !important;
     }
 
     .btnsend {
@@ -415,21 +1099,6 @@
         font-size: 10px;
         font-family: 'EB Garamond', serif;
         margin-top: 1vh !important;
-    }
-
-
-
-
-
-}
-
-
-
-
-
-@media (min-width: 600px) and (max-width: 849px) {
-    div {
-
     }
 
 }
