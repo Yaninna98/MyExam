@@ -252,7 +252,7 @@
 
     .hover2 {
         position: absolute;
-        top: 0px;
+        top: 0px; 
         left: -2px;
         display: flex;
         flex-direction: column;
